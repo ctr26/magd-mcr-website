@@ -1083,7 +1083,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
+				background-attachment: fixed; /* Controls is the bkgd image slides or not*/
 
 				.inner {
 					padding-left: 2em;
@@ -1503,6 +1503,14 @@ $baseurl: '{{ site.baseurl }}/images';
 			#main {
 				> header {
 					text-align: center;
+				}
+			}
+
+			body.is-mobile {
+				#main {
+					> header {
+						background-attachment: scroll;
+					}
 				}
 			}
 
