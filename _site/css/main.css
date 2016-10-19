@@ -1626,7 +1626,7 @@
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #ef8376; /*Hover Colour*/
 			border-bottom-color: transparent;
 		}
 
@@ -2098,7 +2098,7 @@
 		position: relative;
 		background-image: url("../../images/magd.jpg");
 		background-size: cover;
-		background-position: center center;
+		background-position: center top;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
@@ -2177,7 +2177,7 @@
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #282A81; /* Controls transition colour */
 			display: block;
 			position: absolute;
 			left: 0;
