@@ -1,3 +1,9 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$baseurl: '{{ site.baseurl }}/images';
+
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -591,7 +597,7 @@
 
 	#header {
 		position: relative;
-		background-image: url('../../images/magd.jpg');
+		background-image: url('#{$baseurl}/magd.jpg');
 		background-size: cover;
 		background-position: center top;
 		background-attachment: fixed;
@@ -672,7 +678,7 @@
 
 			&:after {
 				content: '';
-				background: ##282A81; /*1C0920*/
+				background: #282A81; /*1C0920*/
 				display: block;
 				position: absolute;
 				left: 0;
