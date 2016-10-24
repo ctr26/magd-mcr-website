@@ -3,7 +3,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+/*{{ "/css/main.css" | prepend: site.baseurl }}*/
 (function($) {
 
 	var settings = {
@@ -24,6 +24,8 @@
 		narrower: '(max-width: 840px)',
 		mobile: '(max-width: 736px)'
 	});
+
+
 
 	$(function() {
 
